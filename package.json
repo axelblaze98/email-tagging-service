@@ -1,0 +1,25 @@
+{
+  "name": "emailer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelblaze98/email-tagging-service.git"
+  },
+  "author": "Parth Bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelblaze98/email-tagging-service/issues"
+  },
+  "homepage": "https://github.com/axelblaze98/email-tagging-service#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.3",
+    "nodemailer": "^6.9.1"
+  }
+}
